@@ -14,6 +14,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "aiohttp*"
     groups:
       aws-packages:
         patterns:
